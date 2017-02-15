@@ -1,0 +1,7 @@
+//Safezone
+execVM "safezone.sqf";
+
+//safezone.sqf Editlenecek Yer:
+#define SAFETY_ZONES    [["respawn_west", 250],["RESPAWN_Guer",20],["respawn-east",15]] // Örnek: [["marker1", radius1], ["marker2", radius2], ...]
+
+//Haritaya marker1 ekliyoruz ve respawn_west bölgesi 250 boyutunda safezone olmuş oluyor.
